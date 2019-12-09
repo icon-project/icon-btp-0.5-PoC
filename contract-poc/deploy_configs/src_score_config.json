@@ -1,0 +1,27 @@
+{
+  "BMC": {
+    "path":"../contracts/btp_management_contract/",
+    "info": "",
+    "install_params": {
+      "my_chain_name": "SrcChain"
+    }
+  },
+  "verifier": {
+    "path": "../contracts/icon_verifier",
+    "info": {
+      "home_chain": "DstChain"
+    },
+    "install_params": {
+      "packed_rep_list": "hxd7508d1b99b6c0f707cd66c394c6b2c23dd61e27"
+    }
+  },
+  "token": {
+    "path": "../contracts/Native_token(irc2)",
+    "info": {
+      "token_home": "SrcChain",
+      "token_name": "BTP_Token",
+      "std_name": "IRC2"
+    },
+    "install_params" : {}
+  }
+}

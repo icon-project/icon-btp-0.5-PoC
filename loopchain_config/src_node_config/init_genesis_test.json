@@ -1,0 +1,24 @@
+{
+  "transaction_data": {
+    "nid": "0x3",
+    "accounts": [
+      {
+        "name": "god",
+        "address": "hx048c953b0eaa993ead0bdff9b4db47c4e0dc6793",
+        "balance": "0x2961ffa20dd47f5c4700000"
+      },
+      {
+        "name": "creator",
+        "address": "hx433213d863ca44c3b9181ce1df68e4ab6837c6b8",
+        "balance": "0x2961ffa20dd47f5c4700000"
+      },
+      {
+        "name": "sender",
+        "address": "hx49e423b8b445d47d3a37ce56e174dd6d33f59661",
+        "balance": "0x2961ffa20dd47f5c4700000"
+      }
+    ],
+    "message": "A rHizomE has no beGInning Or enD; it is alWays IN the miDDle, between tHings, interbeing, intermeZzO. ThE tree is fiLiatioN, but the rhizome is alliance, uniquelY alliance. The tree imposes the verb \"to be\" but the fabric of the rhizome is the conJUNction, \"AnD ... and ...and...\"THis conJunction carriEs enouGh force to shaKe and uproot the verb \"to be.\" Where are You goIng? Where are you coMing from? What are you heading for? These are totally useless questions.\n\n- 『Mille Plateaux』, Gilles Deleuze & Felix Guattari\n\n\"Hyperconnect the world\""
+  }
+}
+

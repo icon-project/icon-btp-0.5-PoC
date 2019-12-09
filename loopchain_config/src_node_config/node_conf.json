@@ -1,0 +1,27 @@
+{
+  "CHANNEL_OPTION" : {
+    "icon_dex": {
+      "block_versions": {
+        "0.1a": 0,
+        "0.3": 1
+      },
+      "hash_versions": {
+        "genesis": 1,
+        "0x2": 1,
+        "0x3": 1
+      },
+      "load_cert": false,
+      "consensus_cert_use": false,
+      "tx_cert_use": false,
+      "key_load_type": 0,
+      "genesis_data_path": "./loopchain_config/src_node_config/init_genesis_test.json"
+    }
+  },
+  "PRIVATE_PATH": "./loopchain_config/src_node_config/wallets/_________SOURCE_NODE_PRIVATE_KEY.wallet",
+  "PRIVATE_PASSWORD": "test",
+  "CHANNEL_MANAGE_DATA_PATH": "./loopchain_config/src_node_config/channel_manage_data.json",
+  "RUN_ICON_IN_LAUNCHER": true,
+  "ALLOW_MAKE_EMPTY_BLOCK": true,
+  "SAFE_BLOCK_BROADCAST": false,
+  "PORT_PEER": 7100
+}

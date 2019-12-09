@@ -1,0 +1,6 @@
+{
+  "chain_name" : "SrcChain",
+  "nid": "0x3",
+  "web_protocol": "http",
+  "address": "localhost:9000"
+}

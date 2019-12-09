@@ -1,0 +1,12 @@
+{
+  "icon_dex": {
+    "score_package": "score/icx",
+    "peers": [
+      {
+        "id": "hxd7508d1b99b6c0f707cd66c394c6b2c23dd61e27",
+        "peer_target": "[local_ip]:7200",
+        "order": 1
+      }
+    ]
+  }
+}

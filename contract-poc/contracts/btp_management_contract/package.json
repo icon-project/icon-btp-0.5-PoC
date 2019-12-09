@@ -1,0 +1,5 @@
+{
+    "version": "0.0.7",
+    "main_module": "btp_management_contract",
+    "main_score": "BtpManagementContract"
+}

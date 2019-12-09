@@ -1,0 +1,145 @@
+venv ❯ ./BTP_score_deploy.py
+---------------------------------< Deploy Info >----------------------------------
+{
+    "nid": "0x4",
+    "chain_name": "dstChain",
+    "address": "http://localhost:9100",
+    "initial_reps": "91c4150086aba2210918a9b116973f3c4b27c41a54d5dafe",
+    "contracts": {
+        "BMC": "../contracts/btp_management_contract",
+        "verifier": "../contracts/icon_verifier",
+        "foreigner_token": "../contracts/foreigner_token"
+    }
+}
+---------------------------------------------------------------------------------
+
+
+[Deploy on dstChain] BMC
+----------------------------------------------------------------------------------
+<Tx_result>
+ -    txHash: 0x24c280fd67faffe2ea9c6183895ded11fb2fb417ba480da2402dacba15da5b5e
+ -    height: 2
+ - blockHash: 0xd637f56ea5a1677280d8df4963598ecf5e21f1eb14d97f68d2a1408ea39fa2a8
+ - scoreAddr: cx0b6ad1e7caf22af31f11095971116aec6a501327
+ -  stepUsed: 558307800
+ -    status: 1
+----------------------------------------------------------------------------------
+
+
+[Deploy on dstChain] Verifier of srcChain
+----------------------------------------------------------------------------------
+<Tx_result>
+ -    txHash: 0xd5c3117c21daa0c01eee8ca3e3e0addaa064bcccc2c0b781a2d3b85afb7a28ca
+ -    height: 4
+ - blockHash: 0xcacb7456fa40150713352e540d735aee57a6d8ecd3251ea9dcc6b8576c687022
+ - scoreAddr: cx692b971949bb582c606887bdea85484bdaf90138
+ -  stepUsed: 469890200
+ -    status: 1
+----------------------------------------------------------------------------------
+
+
+[Deploy on dstChain] Foreigner Token Contract
+----------------------------------------------------------------------------------
+<Tx_result>
+ -    txHash: 0x04ff0113faf13228d137f49df014f89b99d6f8278cc3e0c4511c401112dfe9e3
+ -    height: 6
+ - blockHash: 0xeefc871f032ff0a74cef75030cc9cbf7e173ba3d7842ad7cfae86e4dd1aabbf7
+ - scoreAddr: cx4d4ffbda33bf21706e8a5dc5b694203612db45db
+ -  stepUsed: 39901800
+ -    status: 1
+----------------------------------------------------------------------------------
+
+
+[RegisterChain] srcChain info. -> BMC of dstChain
+----------------------------------------------------------------------------------
+<Tx_result>
+ -    txHash: 0x8fdf494ccfc088a49fcd4315f93518ece0e8537082921e175e0670833562d9cb
+ -    height: 8
+ - blockHash: 0xf1e7075afe514ecb861785763b3c00595ec82725918eaa0a475c02b66d764208
+ -  stepUsed: 1048600
+ -    status: 1
+----------------------------------------------------------------------------------
+
+
+---------------------------------< Deploy Info >----------------------------------
+{
+    "nid": "0x3",
+    "chain_name": "srcChain",
+    "address": "http://localhost:9000",
+    "initial_reps": "91c4150086aba2210918a9b116973f3c4b27c41a54d5dafe",
+    "contracts": {
+        "BMC": "../contracts/btp_management_contract",
+        "verifier": "../contracts/icon_verifier",
+        "Native_token": "../contracts/Native_token(irc2)"
+    }
+}
+---------------------------------------------------------------------------------
+
+
+[Deploy on srcChain] BMC
+----------------------------------------------------------------------------------
+<Tx_result>
+ -    txHash: 0xec9874541f9336e1e0eb8ca55c2a18057ceb29344b597849e74e7778d24394a5
+ -    height: 2
+ - blockHash: 0xf787a028d0a2f0a60c84ada6f503fec3ad6c496c827c7b3c1811df3afbc9875e
+ - scoreAddr: cx6e8734d91678fc569f5bc53a0ce6d74baaabe3b5
+ -  stepUsed: 558307800
+ -    status: 1
+----------------------------------------------------------------------------------
+
+
+[Deploy on srcChain] Verifier of dstChain
+----------------------------------------------------------------------------------
+<Tx_result>
+ -    txHash: 0x9f8344f8deed2788e65c5e157706f8620d878e7efe5888b174d241526c541604
+ -    height: 4
+ - blockHash: 0x4069b884686dd5e5d66879da71e26eaf0d05807cbdad46a3195b1afe60d25713
+ - scoreAddr: cxa48344a0e173febe249308631524959288a9c137
+ -  stepUsed: 469890200
+ -    status: 1
+----------------------------------------------------------------------------------
+
+
+[Deploy on srcChain] Native Token(IRC2) Contract
+----------------------------------------------------------------------------------
+<Tx_result>
+ -    txHash: 0x987236775b8738267711d0fa9ae80a741cab1021e5b6e41afec3505d21f391a0
+ -    height: 6
+ - blockHash: 0x47bf2387bf062acdb557bb1a434afb55db1a455c5a2f08d54d98b5a2bd33658a
+ - scoreAddr: cxe12ff9a3deb2d248ad5d8686a656a20aed5e24af
+ -  stepUsed: 39769600
+ -    status: 1
+----------------------------------------------------------------------------------
+
+
+[RegisterChain] dstChain info. -> BMC of dstChain
+----------------------------------------------------------------------------------
+<Tx_result>
+ -    txHash: 0xd6c8abb7db0152fe70f5c40860ba5ca25a81d152293f5a86c5fbe7463bc92abf
+ -    height: 8
+ - blockHash: 0xec9e615a09ca92ef1ba959dc95bab86dae14054df82a8cc5edff659f50416ec0
+ -  stepUsed: 1048600
+ -    status: 1
+----------------------------------------------------------------------------------
+
+
+[RegisterToken] Token info(on dstChain) -> BMC of srcChain
+----------------------------------------------------------------------------------
+<Tx_result>
+ -    txHash: 0x45a3b6e5855d214dbe04fc059a74fcc8eda0ea005779c68547fb9ab4f7879472
+ -    height: 11
+ - blockHash: 0xbc23f40251f43dacf001a8e891c8b7afffcc120691deecb967ad1632edf5b939
+ -  stepUsed: 1049700
+ -    status: 1
+----------------------------------------------------------------------------------
+
+
+[RegisterToken] Token info(on srcChain) -> BMC of dstChain
+----------------------------------------------------------------------------------
+<Tx_result>
+ -    txHash: 0x95a3e0c538391557aec89fc829cc5abe31453e137972bf6a4e9db59f994dcc76
+ -    height: 11
+ - blockHash: 0xe6c14228784648bc0f8549ac8f5a383c4053bf999e07622ba67b2918fa351fec
+ -  stepUsed: 1049700
+ -    status: 1
+----------------------------------------------------------------------------------
